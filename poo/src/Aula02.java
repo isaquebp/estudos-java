@@ -1,5 +1,6 @@
 public class Aula02 {
     public static void main(String[] args) {
+        /*
         Caneta c1 = new Caneta();
         c1.modelo = "Esferográfica";
         c1.cor = "Azul";
@@ -17,5 +18,15 @@ public class Aula02 {
         c2.tampada = true;
         c2.destampar();
         c2.rabiscar();
+        */
+
+        Copo copo1 = new Copo();
+        copo1.material = "Vidro";
+        copo1.tamanho = 200;
+        copo1.agua = 0;
+
+        copo1.encher();
+        copo1.esvaziar();
+        copo1.status();
     }
 }
