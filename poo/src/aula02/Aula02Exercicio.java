@@ -1,3 +1,5 @@
+package aula02;
+
 public class Aula02Exercicio {
     public static void main(String[] args) {
         Copo copo1 = new Copo();

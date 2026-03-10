@@ -1,3 +1,5 @@
+package aula02;
+
 import java.util.Scanner;
 public class Copo {
     Scanner scanner = new Scanner(System.in);
